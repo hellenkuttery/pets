@@ -5,7 +5,7 @@ import PlayerCard from "./PlayerCard";
 
 const CardContainer = () => {
   return (
-    <Container>
+    <Container  >
       <h1>Merhaba</h1>
       {data.map((player) => {
         return <PlayerCard {...player} />;

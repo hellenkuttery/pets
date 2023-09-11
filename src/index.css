@@ -4,6 +4,7 @@
   box-sizing:border-box;
 }
 
-.card-container{
-  height: 100vh;
+body{
+  background-color: #f4d467;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

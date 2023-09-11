@@ -1,14 +1,14 @@
-import './App.css';
-import Header from './components/Header';
-import CardContainer from './components/CardContainer';
-
+import "./App.css";
+import Header from "./components/Header";
+import CardContainer from "./components/CardContainer";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div className="App">
-     <Header/>
-      <CardContainer/>
-    </div>
+    <Container className="text-center mt-4" >
+      <Header />
+      <CardContainer />
+    </Container>
   );
 }
 

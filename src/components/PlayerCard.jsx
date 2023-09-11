@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import React, { useState } from "react";
+import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
 
-const PlayerCard = ({name,img,statistics}) => {
-const [showImage,setshowImage]=useState()
-return (
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={img}/>
+const PlayerCard = ({ name, img, statistics }) => {
+  const [showImage, setshowImage] = useState();
+  return (
+    <Card style={{ width: "18rem" }} className="text-center">
+      <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
@@ -24,7 +24,7 @@ return (
         <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
     </Card>
-  )
-}
+  );
+};
 
-export default PlayerCard
+export default PlayerCard;
